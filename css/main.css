@@ -243,7 +243,9 @@ footer {
     height: 200px;
 }
 
-
+.img-responsive {
+    max-width: 101.5%;
+}
 body {
   padding-top: 51px;  
 }
