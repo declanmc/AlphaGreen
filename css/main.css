@@ -52,6 +52,10 @@ hr {
     padding: 0;
 }
 
+a {
+    color: #000000;
+}
+
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
@@ -252,14 +256,16 @@ body {
 #sidebar {
   height: 100%;
   padding-right: 0;
-  padding-top: 20px;
+  padding-top: 3.95%;
 }
 #sidebar .nav {
   width: 95%;
 }
 #sidebar li {
-  border:0 #f2f2f2 solid;
+  border:0 solid;
+    border-color: #f2f2f2;
   border-bottom-width:1px;
+background-color: #92FF84;
 }
 .contact {
     font-size: 1.5em;
@@ -268,14 +274,15 @@ body {
 .innercontent{
     border-style: solid;
     border-width: 1px;
-    border-color: #7EC0EE;
-   margin-top: 17.25%;
+    border-color: #000;
+    margin-top: 20.25%;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 30px;
     min-height: 414px;
     font-size: 1.25em;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .sidemenu {
@@ -286,24 +293,23 @@ body {
     background-color: #fff;
     border-style: solid !important;
     border-width: 3px !important;
-    border-color: #7EC0EE !important;
+    border-color: gray !important;
     margin-bottom: 5px;
 }
 
 .hovermenu {
     position: fixed;
     background-color: #fff;
-    top: 87%;
+    top: 90%;
     right:5%;
 }
 
 .hovermenu li {
-    background-color: #fff;
     border-style: solid !important;
     border-width: 3px !important;
-    border-color: #7EC0EE !important;
+    border-color: gray !important;
     margin-bottom: 5px;
-    
+    background-color: #92FF84;
 }
 
 .sidemenu a{
