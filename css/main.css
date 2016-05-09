@@ -347,6 +347,8 @@ background-color: #92FF84;
    Modify as content requires.
    ========================================================================== */
 
+
+
 /* collapsed sidebar styles */
 @media screen and (max-width: 767px) {
   .row-offcanvas {
